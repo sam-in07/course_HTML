@@ -1,0 +1,106 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one {
+    margin: 100px  20px  10px     50px;
+  /*           top      right  bottom left  => imagine clock (always clock wise)oky then    devide it  into 4 parts      */
+  /* margin: 200px  30px; */
+  /*              top     bottom  */
+  /* margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-right: 20px; */
+    height:  500px;
+    width: 500px;
+    /* background-color: url("../imagee/wifuuuu/amrbooo.jpg.png"); */
+    background-color: rebeccapurple;
+    /* background-size: cover; */
+    background-size: cover;
+    /* background-position: center; */
+    /* object-fit: cover; */
+    background-repeat:  no-repeat;
+    /* background-repeat:  repeat-x;
+    background-repeat: repeat-y; */
+    padding: 100px ;
+    border-radius: 200 ;
+    border: 5px sandybrown;
+    
+    transition: all linear 0.10s ; 
+    -webkit-transition: all linear 0.10s ; 
+    -moz-transition:   all linear 0.10s ; 
+    -ms-transition :  all linear 0.10s ; 
+    -o-transition:  all linear 0.10s ; 
+}
+
+h1{
+    background: rgb(12, 175, 239);
+    display: inline;
+    /*jaiga jototuk ototuk e nibeeeee*/
+    /*display none => gayeb kori dibe*/
+   /* display: none; */
+   
+}
+span{
+    display: block;
+}
+
+/*inline block => inline modhe height width add kora jai   */ 
+/*hover modhe use korle curser anle kaj korbe curser sorile last change colour thakbe*/
+
+.one:hover {
+    background:  peru;
+    /*mouse nile clour change hoi jabe*/
+    /*smooth korte transition */
+/*     
+    transition: all linear 0.4s ; 
+    -webkit-transition: all linear 0.4s;
+    -moz-transition:   all linear 0.4s;
+    -ms-transition :  all linear 0.4s;
+    -o-transition:  all linear 0.4s; */
+    height: 600px;
+}
+/*trasition main element swap korile dile curser ana neyar modhe kaj korbe */
+
+.ungabunga{
+    margin: 50px;
+    background-color: blueviolet;
+   color: wheat;
+   padding: 15px     30px; 
+   /*1st ta top        left&right*/
+   border: 0;
+   border-radius: 8px; 
+ font-size: 20px;
+  /* cursor: pointer; */
+  cursor: progress;
+  transition: all linear 0.4s ; 
+  -webkit-transition: all linear 0.4s;
+  -moz-transition:   all linear 0.4s;
+  -ms-transition :  all linear 0.4s;
+  -o-transition:  all linear 0.4s; 
+}
+
+.ungabunga:hover {
+    background-color:  rgb(156, 86, 86);
+}
+
+/*font awesome =>> icone nibo */
+
+
+.chatbox{
+    color: rgba(177, 8, 36, 0.896);
+    font-size: 50px;
+}
+
+h1{
+    font-family: "Comic Neue", cursive;
+
+}
+
+h2{
+    font-family: "Comic Neue", cursive;
+    margin-top: 50px , 0;
+}
