@@ -1,0 +1,132 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin-left: 100px;
+    list-style-type: none;
+
+}
+.container{
+    width: 1180px; 
+    height: 100px;
+    background-color: rebeccapurple;
+    margin: 0 auto;
+}
+/*
+https://www.w3schools.com/css/
+*/
+.one{
+  width: 400px ;
+  height: 400px;
+  background-color: red;
+  position: relative;
+}
+
+.teo{
+    width : 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: absolute;
+    left: 0;
+    right: 0; 
+}
+
+.three {
+    width: 30px;
+    height : 30px ;
+   background-color: rgb(37, 171, 37);
+   position : absolute;
+}
+/*35.27*/
+
+.main_box{
+    width: 1000px;
+    height: 600px;
+    background-color: green;
+}
+
+.cirlce{
+    width: 400px;
+    height: 400px;
+    background-color: red; 
+    border-radius: 50%;
+    -webkit-border-radius : 50% ;
+    -moz-border-radius : 50% ;
+    -ms-border-radious : 50% ;
+    -o-border-radius : 50%;
+    position: absolute;
+    left: 200px;
+}
+
+
+
+
+.main_box{
+    width: 1000px;
+    height: 600px;
+    background-color: green;
+    position: relative;
+}
+
+.cirlce{
+    width: 400px;
+    height: 400px;
+    background-color: red; 
+    border-radius: 50% ;
+    -webkit-border-radious : 50% ;
+    -moz-border-radious : 50% ; 
+    -ms-border-radious : 50% ;
+    -o-border-radious : 50% ;
+    position: absolute;
+    left: 50%;
+    top : 100px ;
+    transform:  translate(-50%); 
+    transform:  translateY(-50%); 
+    -webkit-border-radious :translateY(); 
+    -moz-border-radious : translateY(); 
+    -ms-border-radious : translateY(); 
+    -o-border-radious :translateY(); 
+    
+
+}
+#about{
+    height: 1500px;
+}
+
+#blog{
+    height: 1500px;
+}
+
+.btn {
+    background-color: aqua;
+    color: whitesmoke;
+    border : none;
+    padding: 15px  30px;
+    position:fixed;
+    right : 30px;
+     bottom: 30px;
+}
+
+
+
+.main{
+    width: 100%;
+}
+
+.home , .about , .servise,  .blog , .contact {
+    height: 1500px;
+}
+h1{
+    background-color: red;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    position: sticky;
+    top : 0 ;
+    left: 0;
+}
