@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head> 
+
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>class_8</title>
+       <link rel="stylesheet" href="./css/style.css">
+        </head> 
+        <body>
+       <section>
+         <div class="container" >
+           <div class="main_box"></div>
+            <div class="cirlce"></div>
+ <section>
+            <div class="container" >
+               <div class="main_box">  
+                  <div class="cirlce"></div>
+                </div>
+               </div>
+             </div>
+          </section>
+          <section>
+            <section id ="about">
+             <h1>eta about part </h1>
+            </section>
+          <section>
+            <section id ="blog">
+           <h1>ETA BLOG Part</h1>
+            </section>
+          <button class="btn">backtotop</button>
+        </div>
+         </div>
+       </section>
+        </body>
+        </html>
+
+ <section>
+            <div class="main" >
+              <section  class="home"> 
+                <h1>eta home </h1>  
+              </section>
+            <section  class="about">
+              <h1>eta about </h1>  
+            </section>
+            <section  class="service"> <h1>eta servise </h1>   </section>
+            <section  class="blog"> <h1>eta blog  </h1>    </section>
+            <section  class="contact"><h1>eta contact </h1>    </section>
+          
+          </div>
+
+
+
